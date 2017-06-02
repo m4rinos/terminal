@@ -14,7 +14,6 @@ brew update
 brew upgrade
 
 # Install packages
-
 apps=(
   git
   php71
@@ -40,3 +39,5 @@ apps=(
 )
 
 brew install "${apps[@]}"
+brew doctor
+brew cleanup
