@@ -6,7 +6,7 @@
   user = m4rinos
 
 [core]
-  excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore
   editor = sublime
   filemode = false
   trustctime = false
