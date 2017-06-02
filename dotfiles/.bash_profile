@@ -65,7 +65,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-ln='ln -sfv'
+ln='ln -sv'
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
