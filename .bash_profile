@@ -1,3 +1,13 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# OS
+if [ "$(uname -s)" = "Darwin" ]; then
+  OS="macOS"
+else
+  OS=$(uname -s)
+fi
+
 ## PATHS ##
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
