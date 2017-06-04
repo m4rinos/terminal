@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Color Highlighter",
+		"Dockerfile Syntax Highlighting",
+		"Github Tools",
+		"Laravel 5 Artisan",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"Laravel Forms Bootstrap Snippets",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"nginx",
+		"Package Control",
+		"Pretty JSON",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter-contrib-sublime-syntax",
+		"SublimeLinter-php",
+		"TrailingSpaces",
+		"VCS Gutter",
+		"Vue Syntax Highlight"
+	]
+}

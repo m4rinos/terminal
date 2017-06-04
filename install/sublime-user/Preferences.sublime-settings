@@ -1,0 +1,11 @@
+{
+	"auto_indent": false,
+	"detect_indentation": false,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"translate_tabs_to_spaces": false,
+	"use_simple_full_screen": true
+}
