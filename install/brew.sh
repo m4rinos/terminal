@@ -1,13 +1,13 @@
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew update
 brew upgrade
+brew install homebrew/php/php71 
+brew install -s php71-mcrypt
 
 # Install packages
 apps=(
   git
-  php71
-  php71-mcryp
   composer
   openssl
   node
